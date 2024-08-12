@@ -1,18 +1,28 @@
 # devops-netology
 ### homework №1
 
-## В файле .gitignore директории terraform, будут проигнорированы следующие файлы:
+Будут игнорироваться все файлы с расширением '.tfstate'
 
-- *.tfstate
-- *.tfstate.*
-- crash.log
-- crash.*.log
-- *.tfvars
-- *.tfvars.json
-- override.tf
-- override.tf.json
-- *_override.tf
-- *_override.tf.json
-- .terraform.tfstate.lock.info
-- .terraformrc
-- terraform.rc
+Проигнорированы файлы, в которых есть сочетание букв '*.tfstate.*'
+
+Проигнорирован файл 'crash.log'
+
+Проигнорированы файлы 'crash.*.log'
+
+Проигнорированы все файлы с расширением '.tfvars'
+
+Проигнорированы все файлы оканчивающийся на '.tfvars.json'
+
+Проигнорирован файл 'override.tf'
+
+Проигнорирован файл 'override.tf.json'
+
+Проигнорирован файл оканчивающийся на '_override.tf'
+
+Проигнорирован файл оканчивающийся на '_override.tf.json'
+
+Проигнорирован файл '.terraform.tfstate.lock.info'
+
+Проигнорирован файл '.terraformrc'
+
+Проигнорирован файл 'terraform.rc'
