@@ -16,3 +16,5 @@
 - .terraform.tfstate.lock.info
 - .terraformrc
 - terraform.rc
+
+### homework №2
